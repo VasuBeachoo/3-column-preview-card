@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+}
+
+.component-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.component {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  border-radius: 8px;
+  margin: 25px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px;
+}
+
+.sedans-section {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 8px 0 0 8px;
+}
+
+.suvs-section {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-section {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 8px 8px 0;
+}
+
+.section-icon {
+  width: 55px;
+}
+
+.section-title {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.3px;
+  margin: 20px 0;
+}
+
+.section-description {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  width: 100%;
+  margin-bottom: 70px;
+  letter-spacing: 0.5px;
+  line-height: 19px;
+}
+
+.section-cta {
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  width: 120px;
+  border: solid 1.5px hsl(0, 0%, 95%);
+  border-radius: 19px;
+  padding: 11px 0;
+  margin-top: auto;
+  transition: 0.2s;
+}
+
+.section-cta:hover {
+  cursor: pointer;
+  background: none;
+  color: hsl(0, 0%, 95%);
+}
+
+.sedans-cta {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs-cta {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-cta {
+  color: hsl(179, 100%, 13%);
+}
