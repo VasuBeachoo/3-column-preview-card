@@ -93,3 +93,31 @@ body {
 .luxury-cta {
   color: hsl(179, 100%, 13%);
 }
+
+@media (max-width: 630px) {
+  .component {
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .sedans-section {
+    border-radius: 8px 8px 0 0;
+  }
+
+  .luxury-section {
+    border-radius: 0 0 8px 8px;
+  }
+
+  .section-title {
+    margin-bottom: 10px;
+  }
+
+  .section-description {
+    margin-bottom: 30px;
+    width: 95%;
+  }
+
+  .section-cta {
+    margin-top: 0;
+  }
+}
